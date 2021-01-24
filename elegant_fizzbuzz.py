@@ -7,8 +7,8 @@ def elegant_fizzbuzz(n):
 
 
 def main():
-    anotherlist = (range(1, 101))
-    print(list(map(elegant_fizzbuzz, anotherlist)))
+    fizzbuzzlist = (range(1, 101))
+    print(list(map(elegant_fizzbuzz, fizzbuzzlist)))
 
 
 if __name__ == '__main__':
